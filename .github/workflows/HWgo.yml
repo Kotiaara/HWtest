@@ -1,4 +1,4 @@
-name: go HW_1
+name: go HW_2
 on:
   workflow_dispatch:
     inputs:
