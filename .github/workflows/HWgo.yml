@@ -23,8 +23,5 @@ jobs:
         with:
           go-version: ${{inputs.go_version}}
 
-      - name: Build
-        run: go build -v ./...
-
       - name: Run main.go
         run: go run main.go
